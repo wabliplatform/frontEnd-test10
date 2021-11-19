@@ -1,0 +1,1 @@
+let apiMockupApi = new TempApi.MockupApi();import TempApi from '../src/index';document.getElementById('ikk7j').onclick = () => {apiMockupApi.getAllmockup((error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); }});};
